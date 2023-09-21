@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-style: solid;
+            border-width: 20px;
+            text-align: center;
+            width: 150px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border-style: solid;
+            border-width: 10px;
+            padding: 30px;
+            border-color: rgb(232, 211, 196);
+
+        }
+        tbody tr:nth-child(odd){
+            background-color:rgb(59, 186, 59);
+        }
+        thead tr:nth-child(odd){
+            background-color: rgb(211, 84, 110);
+
+        }
+         
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+       <tr type="kv">
+        <th>day period</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>12:00-01:00</th>
+        <th>IV</th>
+        <th>V</th>
+        <th>VI</th>
+       </tr>
+         </thead>
+     
+  <tbody>
+    <tr>
+        <td>monday</td>
+        <td>physics</td>
+        <td>chenistry</td>
+        <td>maths</td>
+        <td rowspan="5" >l<br>u<br>n<br>c<br>h<br></td>
+
+
+        <td>eg</td>
+        <td>tamil</td>
+        <td>english</td>
+
+    </tr>
+    <tr>
+        <td>tuesday</td>
+        <td>chemistry</td>
+        <td>physics</td>
+        <td>maths</td>
+        <td colspan="5">lab</td>
+    </tr>
+    <tr>
+        <td>wednesday</td>
+        <td>english</td>
+        <td>physics</td>
+        <td>maths</td>
+        <td>cg</td>
+        <td>maths</td>
+        <td>chemistry</td>
+
+    </tr>
+    <tr>
+        <td>thursday</td>
+        <td>chemistry</td>
+        <td>physics</td>
+        <td>english</td>
+        <td>eg</td>
+        <td colspan="3"> lab</td>
+    </tr>
+    <tr>
+        <td>friday</td>
+        <td>english</td>
+        <td>physics</td>
+        <td>maths</td>
+        <td>english</td>
+        <td colspan="4">eg</td>
+    </tr>
+    </tbody>
+</body>
+</html>

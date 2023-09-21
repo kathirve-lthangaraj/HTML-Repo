@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+       <tr type="kv">
+        <th>day period</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>12:00-01:00</th>
+        <th>IV</th>
+        <th>V</th>
+        <th>VI</th>
+       </tr>
+         </thead>
+     
+  <tbody>
+    <tr>
+        <th>monday</th>
+        <td>physics</td>
+        <td>chenistry</td>
+        <td>maths</td>
+        <td rowspan="5" >l<br>u<br>n<br>c<br>h<br></td>
+
+
+        <td>eg</td>
+        <td>tamil</td>
+        <td>english</td>
+
+    </tr>
+    <tr>
+        <th>tuesday</th>
+        <td>chemistry</td>
+        <td>physics</td>
+        <td>maths</td>
+        <td colspan="5">lab</td>
+    </tr>
+    <tr>
+        <tdhhysics</th>
+        <td>maths</td>
+        <td>cg</td>
+        <td>maths</td>
+        <td>chemistry</td>
+
+    </tr>
+    <tr>
+        <th>thursday</th>
+        <td>chemistry</td>
+        <td>physics</td>
+        <td>english</td>
+        <td>eg</td>
+        <td colspan="3"> lab</td>
+    </tr>
+    <tr>
+        <th>friday</th>
+        <td>english</td>
+        <td>physics</td>
+        <td>maths</td>
+        <td>english</td>
+        <td colspan="4">eg</td>
+    </tr>
+    </tbody>
+</body>
+</html>
